@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Videogame Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/styleForm.css">
+    </head>
+    <form class="videogameForm" method="POST" action="../jsp/saveVideogame.jsp">
+        <h4>Videogame Data</h4>
+        <label>Videogame name: </label>
+        <input class="data" type="text" name="name">
+        <label>Price: </label>
+        <input class="data" type="number" name="price">
+        <label>Platform: </label>
+        <input class="data" type="text" name="platform">
+        <label>Genre: </label>
+        <input class="data" type="text" name="genre">
+        <label>Release Date</label>
+        <input class="data" type="date" name="date" id="txtDate">
+        <input class="button" type="submit" value="Save">
+    </form>
+    </body>
+</html>
